@@ -1,10 +1,10 @@
 #include <stdio.h>
 
- /**
-*main - Prints the alpha in lower case
-*followed by new line, except q and e
-*Return: Always 0 (Success)
-*/
+/**
+ * main - print the alphabet in lower  case
+ * followed by new line, except q and e
+ * Return: Always 0
+ */
 int main(void)
 {
 	char la;
@@ -14,8 +14,7 @@ int main(void)
 		if (la != 'e' && la != 'q')
 			putchar(la);
 	}
-
 	putchar('\n');
 
-	return (0);
+	return (0)
 }
