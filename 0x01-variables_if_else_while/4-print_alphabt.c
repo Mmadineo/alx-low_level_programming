@@ -1,7 +1,7 @@
 #include <stdio.h>
 
  /**
-*main – Prints the alpha in lower case 
+*main - Prints the alpha in lower case 
 *followed by new line, except q and e
 *Return: Always 0 (Success)
 */
