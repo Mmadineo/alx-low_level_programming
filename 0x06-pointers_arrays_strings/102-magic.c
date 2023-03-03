@@ -1,5 +1,9 @@
 #include <stdio.h>
+#include "main.h"
 
+/**
+ * Description: prints 1 line of code
+ */
 int main(void)
 {
 	int n;
@@ -17,7 +21,7 @@ int main(void)
  * - you are not allowed to code anything else than this line of code
  */
 
-	*(p + 5) = 98;
+*(p + 5) = 98;
 /* so that it prints 98/n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);

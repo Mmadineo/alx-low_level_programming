@@ -1,5 +1,41 @@
 #include "main.h"
-#include <stdio.h>
+
+/**
+ * rev_string - reverse array
+ * @n: integer params
+ * Return: 0
+ */
+
+void rev_string(char *n)
+{
+	int i = 0;
+	int j = 0;
+	char temp;
+
+	while (*(n + i) != '\0')
+	{
+		i++;
+	}
+	i--;
+
+	for (j = 0; j < i; j++; i--)
+	{
+		temp = *(n + j);
+		*(n + j) = *(n + i);
+		*(n + i) = temp;
+	}
+}
+
+/**
+ * infinite_add - add 2 numbers together
+ * @n1: text representation of 1st number
+ * @n2: text representation of second number to add
+ * @r: pointer to buffer
+ * @r: pointer to beffer
+ * @size_r: buffer size
+ * Return: pointer to calling function
+*/
+
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -26,7 +62,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	else
 	val2 = *(n2 + j) - '0'
 	temp_tot = val1 + val2 overflow;
-	if (temp_tot = val1 +val2 +overflow;
+	if (temp_tot = val1 + val2 + overflow)
 			if (temp_tot >= 10)
 				overfow = 1;
 				else
