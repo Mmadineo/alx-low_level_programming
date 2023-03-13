@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -6,7 +6,7 @@
  * it with a specific char.
  * @c: char to initialize
  * @size: number of bytes to allocate
- * 
+ *
  * Return: a pointer to the array or null if it fails
  */
 
