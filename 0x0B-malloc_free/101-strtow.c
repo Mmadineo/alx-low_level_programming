@@ -28,7 +28,7 @@ int word_len(char *str)
 
 /**
  * count_words - helper function to count the number of words in a string
- * @s: string to evaluate
+ * @str: string to evaluate
  *
  * Return: number of words
  */
