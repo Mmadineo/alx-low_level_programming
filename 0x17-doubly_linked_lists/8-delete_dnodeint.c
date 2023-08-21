@@ -4,10 +4,11 @@
  * delete_dnodeint_at_index - deletes the node at index
  * @head: head of the list
  * @index: index of the new node
-
+ *
  * Returns: 1 if it succeeded, -1 if it failed
  */
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
+
+int delete_dnodeint_at_index(dlistint_t **head, uinsigned int index)
 {
 	dlistint_t *h1;
 	dlistint_t *h2;
