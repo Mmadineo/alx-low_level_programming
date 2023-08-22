@@ -2,9 +2,15 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int printf(const char *format, …0)
+int printf(const char *format, ...)
 {
-	wiite(1, “9 8 10 24 75 – 9\n”, 17);
-	write(1, “Congratulations, you win the Jackpot!\n”, 38);
-	exit(EXIT_SUCCESS);
+        write(1, "9 8 10 24 75 - 9\n", 17);
+        write(1, "Congratulations, you win the Jackpot!\n", 38);
+        exit(EXIT_SUCCESS);
+}
+
+int main()
+{
+        printf("Hello, world!\n");
+        return (0);
 }
